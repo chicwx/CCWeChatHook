@@ -1,0 +1,24 @@
+br s -n "+[MZDeviceInfo getBundleIdentifier]"
+
+接收消息
+文字：
+2018-10-11 14:26:32.241 WeChat[391:71088] [1;36m[CCWeChatDylib] [m[0;36m/Users/wangxiao/personal/iOSÈÄÜÂêë/Demo/CCWeChat/CCWeChatDylib/Logos/Tweak.xm:6[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1279b8400> addMessageNode:{m_uiMesLocalID=8, m_ui64MesSvrID=6094567036973137515, m_nsFromUsr=wan*317~12, m_nsToUsr=wxi*d12~19, m_uiStatus=4, type=1, msgSource="<msgsource><sequence_id>612493886</sequence_id></msgsource>"}  layout:1 addMoreMsg:0]
+
+语音：
+2018-10-11 14:29:05.401 WeChat[391:71088] [1;36m[CCWeChatDylib] [m[0;36m/Users/wangxiao/personal/iOSÈÄÜÂêë/Demo/CCWeChat/CCWeChatDylib/Logos/Tweak.xm:6[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1279b8400> addMessageNode:{m_uiMesLocalID=10, m_ui64MesSvrID=8365344057505525660, m_nsFromUsr=wan*317~12, m_nsToUsr=wxi*d12~19, m_uiStatus=4, type=34, msgSource="<msgsource><sequence_id>612493888</sequence_id></msgsource>"}  layout:1 addMoreMsg:0]
+
+图片：
+2018-10-11 14:32:15.261 WeChat[391:71088] [1;36m[CCWeChatDylib] [m[0;36m/Users/wangxiao/personal/iOSÈÄÜÂêë/Demo/CCWeChat/CCWeChatDylib/Logos/Tweak.xm:6[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1279b8400> addMessageNode:{m_uiMesLocalID=11, m_ui64MesSvrID=3153009657170205714, m_nsFromUsr=wan*317~12, m_nsToUsr=wxi*d12~19, m_uiStatus=4, type=3, msgSource="<msgsource><sequence_id>612493889</sequence_id>
+
+红包：
+{m_uiMesLocalID=22, m_ui64MesSvrID=4762185621643170615, m_nsFromUsr=wan*317~12, m_nsToUsr=wxi*d12~19, m_uiStatus=3, type=49, msgSource="<msgsource><sequence_id>612493900</sequence_id>
+	<pushkey />
+</msgsource>
+"} 
+
+发送消息：
+文字：
+2018-10-11 14:33:42.022 WeChat[391:71088] [1;36m[CCWeChatDylib] [m[0;36m/Users/wangxiao/personal/iOSÈÄÜÂêë/Demo/CCWeChat/CCWeChatDylib/Logos/Tweak.xm:6[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1279b8400> addMessageNode:{m_uiMesLocalID=12, m_ui64MesSvrID=0, m_nsFromUsr=wxi*d12~19, m_nsToUsr=wan*317~12, m_uiStatus=1, type=1, msgSource="(null)"}  layout:1 addMoreMsg:0]
+
+
+0000000103187d07         db         "WCRedEnvelopesReceiveHomeViewOpenRedEnvelopes", 0 ; DATA XREF=-[WARedEnvelopesReceiveHomeView OnOpenRedEnvelopes]+284, -[WCRedEnvelopesReceiveHomeView OnOpenRedEnvelopes]+284, 0x103c8e350, 0x103c8e468, 0x103efe4c0, 0x1043b8cf8
